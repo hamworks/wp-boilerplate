@@ -1,0 +1,14 @@
+{
+  "name": "@hamworks/wp-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env": "wp-env"
+  },
+  "devDependencies": {
+    "@wordpress/browserslist-config": "^2.6.0",
+    "@wordpress/env": "^1.6.0",
+    "@wordpress/scripts": "^12.0.0"
+  }
+}

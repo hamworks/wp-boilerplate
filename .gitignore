@@ -1,0 +1,7 @@
+*.log
+/vendor/
+/node_modules/
+/dist/
+debug.php
+/wp-content/mu-plugins/*/build
+

@@ -1,0 +1,15 @@
+{
+    "core": null,
+    "plugins": [
+        "https://downloads.wordpress.org/plugin/wp-jquery-update-test.zip",
+        "https://downloads.wordpress.org/plugin/wordpress-importer.zip"
+    ],
+    "themes": [
+        "./wp-content/themes/boilerplate"
+    ],
+    "mapping": {
+        "wp-content/mu-plugins": "./wp-content/mu-plugins"
+    },
+    "port": 8080,
+    "testsPort": 8081
+}
