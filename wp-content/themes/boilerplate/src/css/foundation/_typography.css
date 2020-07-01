@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: var(--color-black);
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo,Verdana, Meiryo, sans-serif;
+	font-size: 14px;
+	line-height: 1.625;
+	@media (--window-medium) {
+		font-size: 16px;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 16px;
+	@media (--window-medium) {
+		font-size: 22px;
+	}
+	padding: 0.4em 0;
+}
+
+
+h1 {
+}
+
+
+h2 {
+	font-weight: bold;
+	font-size: 16px;
+	@media (--window-medium) {
+		font-size: 20px;
+	}
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 16px;
+	@media (--window-medium) {
+		font-size: 20px;
+	}
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 16px;
+	@media (--window-medium) {
+		font-size: 18px;
+	}
+	padding: 1em 0;
+}
+
+h5 {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+h6 {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 0.8em 1em;
+}
+
+code, kbd, tt, var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 0.875rem;
+}
+
+@media screen and (min-width: 600px) {
+	code, kbd, tt, var {
+		font-size: 0.8125rem;
+	}
+}
+
+p > code {
+	padding: 2px;
+	border-radius: 2px;
+	background: #f3f4f5;
+	font-size: inherit;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}

@@ -1,0 +1,10 @@
+@custom-media --window-small (max-width: 600px);
+@custom-media --window-medium (min-width: 768px);
+@custom-media --window-large (min-width: 1080px);
+
+:root {
+	--color-white: #ffffff;
+	--color-black: #333;
+	--content-width: 748px;
+	--site-max-width: 1080px;
+}
