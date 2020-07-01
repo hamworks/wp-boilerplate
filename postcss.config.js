@@ -16,6 +16,7 @@ module.exports = {
 				grid: true,
 			},
 		},
+		'postcss-pxtorem': {},
 		'cssnano': {}
 	}
 };

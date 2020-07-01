@@ -20,14 +20,6 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
-h1 {
-	font-weight: bold;
-	font-size: 16px;
-	@media (--window-medium) {
-		font-size: 22px;
-	}
-	padding: 0.4em 0;
-}
 
 
 h1 {
@@ -35,38 +27,23 @@ h1 {
 
 
 h2 {
-	font-weight: bold;
-	font-size: 16px;
-	@media (--window-medium) {
-		font-size: 20px;
-	}
+
 }
 
 h3 {
-	font-weight: bold;
-	font-size: 16px;
-	@media (--window-medium) {
-		font-size: 20px;
-	}
+
 }
 
 h4 {
-	font-weight: bold;
-	font-size: 16px;
-	@media (--window-medium) {
-		font-size: 18px;
-	}
-	padding: 1em 0;
+
 }
 
 h5 {
-	font-weight: bold;
-	font-size: 16px;
+
 }
 
 h6 {
-	font-weight: bold;
-	font-size: 14px;
+
 }
 
 

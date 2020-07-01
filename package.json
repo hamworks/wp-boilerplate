@@ -3,14 +3,17 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "env": "wp-env",
-        "build:theme": "wp-scripts build ./wp-content/themes/boilerplate/src/index.js --output-path=./wp-content/themes/boilerplate/build"
+        "bs": "browser-sync start --config bs-config.js",
+        "start": "npm run bs & npm run start:theme",
+        "build:theme": "wp-scripts build ./wp-content/themes/boilerplate/src/index.js --output-path=./wp-content/themes/boilerplate/build",
+        "start:theme": "wp-scripts start ./wp-content/themes/boilerplate/src/index.js --output-path=./wp-content/themes/boilerplate/build"
     },
     "devDependencies": {
         "@wordpress/browserslist-config": "^2.6.0",
         "@wordpress/env": "^1.6.0",
         "@wordpress/scripts": "^12.0.0",
+        "browser-sync": "^2.26.7",
         "cssnano": "^4.1.10",
         "postcss-import": "^12.0.1",
         "postcss-import-resolver": "^2.0.0",
