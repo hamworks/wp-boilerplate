@@ -5,11 +5,20 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "env": "wp-env",
-        "build:theme:js": "wp-scripts build ./wp-content/themes/boilerplate/src/js/index.js --output-path=./wp-content/themes/boilerplate/build/js"
+        "build:theme": "wp-scripts build ./wp-content/themes/boilerplate/src/index.js --output-path=./wp-content/themes/boilerplate/build"
     },
     "devDependencies": {
         "@wordpress/browserslist-config": "^2.6.0",
         "@wordpress/env": "^1.6.0",
-        "@wordpress/scripts": "^12.0.0"
+        "@wordpress/scripts": "^12.0.0",
+        "cssnano": "^4.1.10",
+        "postcss-import": "^12.0.1",
+        "postcss-import-resolver": "^2.0.0",
+        "postcss-omit-import-tilde": "^1.0.1",
+        "postcss-preset-env": "^6.7.0",
+        "postcss-pxtorem": "^4.0.1"
+    },
+    "dependencies": {
+        "normalize.css": "^8.0.1"
     }
 }
