@@ -4,8 +4,7 @@ const mode = nodeEnv ? nodeEnv : 'development';
 module.exports = {
 	map: mode === 'development',
 	plugins: {
-		'postcss-import': {
-		},
+		'postcss-import': {},
 		'postcss-preset-env': {
 			stage: 1,
 			features: {
@@ -17,6 +16,6 @@ module.exports = {
 			},
 		},
 		'postcss-pxtorem': {},
-		'cssnano': {}
-	}
+		cssnano: {},
+	},
 };

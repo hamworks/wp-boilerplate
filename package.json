@@ -6,12 +6,16 @@
         "env": "wp-env",
         "bs": "browser-sync start --config bs-config.js",
         "start": "npm run bs & npm run start:theme",
+        "format:js": "wp-scripts format-js ./wp-content/themes/boilerplate/src",
+        "lint:css": "wp-scripts lint-style ./wp-content/themes/boilerplate/src --fix",
+        "lint:js": "wp-scripts lint-js ./wp-content/themes/boilerplate/src --fix",
         "build:theme": "wp-scripts build ./wp-content/themes/boilerplate/src/index.js --output-path=./wp-content/themes/boilerplate/build",
         "start:theme": "wp-scripts start ./wp-content/themes/boilerplate/src/index.js --output-path=./wp-content/themes/boilerplate/build"
     },
     "devDependencies": {
         "@wordpress/browserslist-config": "^2.6.0",
         "@wordpress/env": "^1.6.0",
+        "@wordpress/prettier-config": "^0.3.0",
         "@wordpress/scripts": "^12.0.0",
         "browser-sync": "^2.26.7",
         "cssnano": "^4.1.10",

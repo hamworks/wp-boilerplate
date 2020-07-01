@@ -7,8 +7,9 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
+
 	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
 }
@@ -34,7 +35,8 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul, ol {
+ul,
+ol {
 	margin: 0 0 1.5em 0;
 	padding-left: 1em;
 }
@@ -67,13 +69,16 @@ dd {
 
 img {
 	height: auto;
+
 	/* Make sure images are scaled correctly. */
 	max-width: 100%;
+
 	/* Adhere to container width. */
 }
 
 figure {
 	margin: 1em 0;
+
 	/* Extra wide images within figure tags don't overflow the content area. */
 }
 
@@ -83,7 +88,8 @@ table {
 	border-collapse: collapse;
 }
 
-th,td {
+th,
+td {
 	text-align: left;
 	padding: 0.5em 1em;
 }
@@ -121,7 +127,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
 	text-decoration: underline;
 }
 
@@ -129,6 +137,7 @@ a:focus {
 	outline: thin dotted;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
 	outline: 0;
 }

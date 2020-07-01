@@ -2,6 +2,7 @@
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
@@ -10,6 +11,7 @@
 	width: 1px;
 	overflow: hidden;
 	word-wrap: normal !important;
+
 	/* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
@@ -31,6 +33,7 @@
 	top: 5px;
 	width: auto;
 	z-index: 100000;
+
 	/* Above WP toolbar. */
 }
 
