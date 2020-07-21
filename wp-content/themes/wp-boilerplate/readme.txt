@@ -1,4 +1,4 @@
-=== boilerplate ===
+=== wp-boilerplate ===
 
 Contributors: wordpressdotorg, aduth, artisticasad, crunnells, joen, joyously, karmatosed, kjellr, littlebigthing, marekhrabe, melchoyce, milana_cap, mor10, netweb, noisysocks, obenland, paulstonier, pento, richtabor, sharaz, shinichin, soean, sumobi
 Tags: translation-ready

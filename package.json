@@ -1,5 +1,5 @@
 {
-    "name": "@hamworks/wp-boilerplate",
+    "name": "@hamworks/wp-wp-boilerplate",
     "version": "1.0.0",
     "description": "",
     "scripts": {
@@ -10,8 +10,8 @@
         "format:js": "wp-scripts format-js ./wp-content",
         "lint:css": "wp-scripts lint-style ./wp-content/**/*.css --fix",
         "lint:js": "wp-scripts lint-js ./wp-content --fix",
-        "build:theme": "wp-scripts build ./wp-content/themes/boilerplate/src/index.js --output-path=./wp-content/themes/boilerplate/build",
-        "start:theme": "wp-scripts start ./wp-content/themes/boilerplate/src/index.js --output-path=./wp-content/themes/boilerplate/build"
+        "build:theme": "wp-scripts build ./wp-content/themes/wp-boilerplate/src/index.js --output-path=./wp-content/themes/wp-boilerplate/build",
+        "start:theme": "wp-scripts start ./wp-content/themes/wp-boilerplate/src/index.js --output-path=./wp-content/themes/wp-boilerplate/build"
     },
     "devDependencies": {
         "@wordpress/browserslist-config": "^2.6.0",

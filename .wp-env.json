@@ -6,7 +6,7 @@
         "https://downloads.wordpress.org/plugin/gutenberg.zip"
     ],
     "themes": [
-        "./wp-content/themes/boilerplate"
+        "./wp-content/themes/wp-boilerplate"
     ],
     "mapping": {
         "wp-content/mu-plugins": "./wp-content/mu-plugins"

@@ -1,7 +1,7 @@
 {
-    "name": "hamworks/wp-boilerplate",
+    "name": "hamworks/wp-wp-boilerplate",
     "description": "",
-    "license": "proprietary",
+    "license": "GPL-2.0-or-later",
     "type": "project",
     "minimum-stability": "stable",
     "repositories": [
