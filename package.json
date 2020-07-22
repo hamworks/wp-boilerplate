@@ -16,6 +16,7 @@
     "devDependencies": {
         "@wordpress/browserslist-config": "^2.6.0",
         "@wordpress/env": "^1.6.0",
+        "@wordpress/eslint-plugin": "^7.1.0",
         "@wordpress/prettier-config": "^0.3.0",
         "@wordpress/scripts": "^12.1.1",
         "browser-sync": "^2.26.10",
