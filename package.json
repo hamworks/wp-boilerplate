@@ -17,14 +17,15 @@
         "@wordpress/browserslist-config": "^2.6.0",
         "@wordpress/env": "^1.6.0",
         "@wordpress/prettier-config": "^0.3.0",
-        "@wordpress/scripts": "^12.0.0",
-        "browser-sync": "^2.26.7",
+        "@wordpress/scripts": "^12.1.1",
+        "browser-sync": "^2.26.10",
         "cssnano": "^4.1.10",
         "postcss-import": "^12.0.1",
         "postcss-import-resolver": "^2.0.0",
         "postcss-omit-import-tilde": "^1.0.1",
         "postcss-preset-env": "^6.7.0",
-        "postcss-pxtorem": "^4.0.1"
+        "postcss-pxtorem": "^4.0.1",
+        "prettier": "npm:wp-prettier@2.0.5"
     },
     "dependencies": {
         "normalize.css": "^8.0.1"
