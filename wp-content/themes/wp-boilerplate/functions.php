@@ -72,7 +72,7 @@ add_action( 'after_setup_theme', 'wp-boilerplate_content_width', 0 );
  * Enqueue scripts and styles.
  */
 function wp_boilerplate_scripts() {
-	wp_enqueue_style( 'wp-boilerplate-style', get_template_directory_uri() . '/build/style-index.css' );
+	wp_enqueue_style( 'wp-boilerplate-style', get_template_directory_uri() . '/build/index.css' );
 
 	if ( file_exists( dirname( __FILE__ ) . '/build/index.asset.php' ) ) {
 		$asset_file = include( dirname( __FILE__ ) . '/build/index.asset.php' );

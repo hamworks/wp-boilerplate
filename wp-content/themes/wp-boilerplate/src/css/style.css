@@ -1,8 +1,0 @@
-@import "../../../../../node_modules/normalize.css/normalize.css";
-@import "_variables.css";
-@import "foundation/_elements.css";
-@import "foundation/_typography.css";
-@import "blocks/embed.css";
-@import "blocks/cover.css";
-@import "_accessibility.css";
-@import "_alignment.css";
