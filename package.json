@@ -44,7 +44,7 @@
             "wp-scripts lint-pkg-json"
         ],
         "{*.css,*.scss}": [
-            "wp-scripts lint-style"
+            "npm run lint-style"
         ],
         "*.js": [
             "wp-scripts format-js",
