@@ -7,6 +7,7 @@ module.exports = {
 		'postcss-import': {},
 		'postcss-preset-env': {
 			stage: 1,
+			importFrom: './wp-content/themes/wp-boilerplate/src/css/_variables.css',
 			features: {
 				'nesting-rules': true,
 				'custom-media-queries': true,
