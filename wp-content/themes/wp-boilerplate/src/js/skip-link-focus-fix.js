@@ -6,20 +6,20 @@
  * Learn more: https://git.io/vWdr2
  */
 ( function () {
+	const { navigator, location } = window;
 	const isIe = /(trident|msie)/i.test( navigator.userAgent );
 
 	if ( isIe && document.getElementById && window.addEventListener ) {
 		window.addEventListener(
 			'hashchange',
 			function () {
-				let id = location.hash.substring( 1 ),
-					element;
+				const id = location.hash.substring( 1 );
 
 				if ( ! /^[A-z0-9_-]+$/.test( id ) ) {
 					return;
 				}
 
-				element = document.getElementById( id );
+				const element = document.getElementById( id );
 
 				if ( element ) {
 					if (

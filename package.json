@@ -47,8 +47,8 @@
             "npm run lint-style"
         ],
         "*.js": [
-            "wp-scripts format-js",
-            "wp-scripts lint-js"
+            "npm run format-js",
+            "npm run lint-js"
         ]
     }
 }
