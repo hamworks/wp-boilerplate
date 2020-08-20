@@ -45,14 +45,14 @@ function wp_boilerplate_setup() {
 	) );
 }
 
-add_action( 'after_setup_theme', 'wp-boilerplate_setup' );
+add_action( 'after_setup_theme', 'wp_boilerplate_setup' );
 
 function wp_boilerplate_editor_styles() {
 	add_theme_support( 'editor-styles' );
-	add_editor_style( 'build/style-index.css' );
+	add_editor_style( 'build/index.css' );
 }
 
-add_action( 'after_setup_theme', 'wp-boilerplate_editor_styles' );
+add_action( 'after_setup_theme', 'wp_boilerplate_editor_styles' );
 
 
 /**
@@ -63,10 +63,10 @@ add_action( 'after_setup_theme', 'wp-boilerplate_editor_styles' );
  * @global int $content_width
  */
 function wp_boilerplate_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'wp-boilerplate_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'wp_boilerplate_content_width', 640 );
 }
 
-add_action( 'after_setup_theme', 'wp-boilerplate_content_width', 0 );
+add_action( 'after_setup_theme', 'wp_boilerplate_content_width', 0 );
 
 /**
  * Enqueue scripts and styles.
@@ -86,7 +86,7 @@ function wp_boilerplate_scripts() {
 	}
 }
 
-add_action( 'wp_enqueue_scripts', 'wp-boilerplate_scripts' );
+add_action( 'wp_enqueue_scripts', 'wp_boilerplate_scripts' );
 
 /**
  * Custom template tags for this theme.

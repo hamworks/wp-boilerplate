@@ -7,7 +7,7 @@
  * @package wp_boilerplate
  */
 
-if ( ! function_exists( 'wp-boilerplate_posted_on' ) ) :
+if ( ! function_exists( 'wp_boilerplate_posted_on' ) ) :
 	/**
 	 * Prints HTML with meta information for the current post-date/time and author.
 	 */
@@ -41,7 +41,7 @@ if ( ! function_exists( 'wp-boilerplate_posted_on' ) ) :
 	}
 endif;
 
-if ( ! function_exists( 'wp-boilerplate_entry_footer' ) ) :
+if ( ! function_exists( 'wp_boilerplate_entry_footer' ) ) :
 	/**
 	 * Prints HTML with meta information for the categories, tags and comments.
 	 */
