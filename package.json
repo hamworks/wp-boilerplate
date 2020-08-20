@@ -8,8 +8,10 @@
         "start": "npm run bs & npm run start:theme",
         "build": "NODE_ENV=production npm run build:theme",
         "format-js": "wp-scripts format-js ./wp-content",
-        "lint-style": "wp-scripts lint-style ./wp-content/**/*.css --fix",
+        "lint-style": "wp-scripts lint-style ./wp-content/**/*.css",
+        "lint-style:fix": "wp-scripts lint-style ./wp-content/**/*.css --fix",
         "lint-js": "wp-scripts lint-js ./wp-content --fix",
+        "lint-js:fix": "wp-scripts lint-js ./wp-content",
         "build:theme": "wp-scripts build ./wp-content/themes/wp-boilerplate/src/index.js --output-path=./wp-content/themes/wp-boilerplate/build",
         "start:theme": "wp-scripts start ./wp-content/themes/wp-boilerplate/src/index.js --output-path=./wp-content/themes/wp-boilerplate/build"
     },
