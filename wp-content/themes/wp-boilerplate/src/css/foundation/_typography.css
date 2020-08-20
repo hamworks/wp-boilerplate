@@ -8,7 +8,7 @@ select,
 optgroup,
 textarea {
 	color: var(--color-black);
-	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, Verdana, Meiryo, sans-serif;
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Verdana, Meiryo, sans-serif;
 	font-size: 14px;
 	line-height: 1.625;
 
@@ -26,7 +26,7 @@ h6 {
 	clear: both;
 }
 
-
+/**
 h1 {
 }
 
@@ -50,6 +50,8 @@ h5 {
 h6 {
 
 }
+
+ */
 
 
 dfn,

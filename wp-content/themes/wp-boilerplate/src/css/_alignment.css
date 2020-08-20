@@ -1,10 +1,11 @@
 /* Alignment Classes ------------------------- */
 
+/*
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
 }
 
 [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
-}
+}*/
 
 .alignnone,
 .aligncenter,

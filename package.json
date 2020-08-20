@@ -26,7 +26,8 @@
         "postcss-omit-import-tilde": "^1.0.1",
         "postcss-preset-env": "^6.7.0",
         "postcss-pxtorem": "^5.1.1",
-        "prettier": "npm:wp-prettier@2.0.5"
+        "prettier": "npm:wp-prettier@2.0.5",
+        "stylelint-config-wordpress": "^17.0.0"
     },
     "dependencies": {
         "normalize.css": "^8.0.1"
