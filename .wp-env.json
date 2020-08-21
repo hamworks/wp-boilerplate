@@ -8,7 +8,7 @@
     "themes": [
         "./wp-content/themes/wp-boilerplate"
     ],
-    "mapping": {
+    "mappings": {
         "wp-content/mu-plugins": "./wp-content/mu-plugins"
     },
     "port": 8080,
