@@ -91,7 +91,6 @@ function wp_boilerplate_scripts() {
 		);
 	}
 }
-
 add_action( 'wp_enqueue_scripts', 'wp_boilerplate_scripts' );
 
 /**

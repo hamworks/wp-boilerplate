@@ -9,8 +9,7 @@
         "build": "NODE_ENV=production npm run build:theme",
         "format-js": "wp-scripts format-js ./wp-content",
         "lint-style": "wp-scripts lint-style ./wp-content/**/*.css",
-        "prelint-php": "wp-env run composer 'install --no-interaction'",
-        "lint-php": "wp-env run composer run-script lint",
+        "lint-php": "./vendor/bin/phpcs --standard=./.phpcs.xml.dist",
         "lint-style:fix": "wp-scripts lint-style ./wp-content/**/*.css --fix",
         "lint-js": "wp-scripts lint-js ./wp-content --fix",
         "lint-js:fix": "wp-scripts lint-js ./wp-content",
@@ -53,6 +52,9 @@
         "*.js": [
             "npm run format-js",
             "npm run lint-js"
+        ],
+        "*.php": [
+            "npm run lint-php"
         ]
     }
 }
