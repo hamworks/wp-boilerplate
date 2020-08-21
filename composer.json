@@ -33,14 +33,8 @@
         "wordpress-install-dir": "htdocs/wp"
     },
     "scripts" : {
-        "phpcs": [
-            "@php vendor/bin/phpcs -p -s -v -n --standard=./.phpcs.xml.dist --extensions=php"
-        ],
-        "autofix": [
-            "@php vendor/bin/phpcbf --standard=./.phpcs.xml.dist --report-summary --report-source"
-        ],
-        "test": [
-            "@phpcs"
-        ]
+        "format": "phpcbf --standard=./.phpcs.xml.dist --report-summary --report-source",
+        "lint": "phpcs --standard=./.phpcs.xml.dist",
+        "phpcs": "phpcs --standard=./.phpcs.xml.dist"
     }
 }
