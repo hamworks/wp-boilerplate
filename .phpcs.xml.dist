@@ -4,9 +4,10 @@
 
 	<file>./wp-content/mu-plugins</file>
 	<file>./wp-content/themes/</file>
-	<exclude-pattern>/vendor/</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
 	<exclude-pattern>/mu-plugins/debug.php</exclude-pattern>
-	<exclude-pattern>/node_modules/</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*.asset.php</exclude-pattern>
 	<exclude-pattern>*.js</exclude-pattern>
 	<exclude-pattern>*.ts</exclude-pattern>
 	<exclude-pattern>*.tsx</exclude-pattern>
@@ -23,6 +24,9 @@
 		<exclude name="Squiz.Commenting.FileComment"/>
 		<exclude name="WordPress.Files.FileName" />
 		<exclude name="WordPress.WP.GlobalVariablesOverride.OverrideProhibited" />
+		<exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited" />
+		<exclude name="WordPress.DB.SlowDBQuery.slow_db_query_tax_query" />
+		<exclude name="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents" />
 	</rule>
 
 	<rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
