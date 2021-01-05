@@ -1,6 +1,8 @@
-@custom-media --window-small (max-width: 600px);
-@custom-media --window-medium (min-width: 768px);
-@custom-media --window-large (min-width: 1080px);
+@custom-media --window-600-or-lower (max-width: 600px);
+@custom-media --window-less-than-600 (max-width: 599px);
+@custom-media --window-less-than-782 (max-width: 781px);
+@custom-media --window-600-or-higher (min-width: 600px);
+@custom-media --window-782-or-higher (min-width: 782px);
 
 :root {
 	--color-white: #fff;
