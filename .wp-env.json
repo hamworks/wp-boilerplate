@@ -9,7 +9,8 @@
         "./wp-content/themes/wp-boilerplate"
     ],
     "mappings": {
-        "wp-content/mu-plugins": "./wp-content/mu-plugins"
+        "wp-content/mu-plugins": "./wp-content/mu-plugins",
+        "vendor": "./vendor"
     },
     "port": 8080,
     "testsPort": 8081
