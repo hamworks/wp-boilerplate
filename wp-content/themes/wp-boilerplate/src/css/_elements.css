@@ -1,0 +1,224 @@
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: var(--color-black);
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Verdana, Meiryo, sans-serif;
+	font-size: 14px;
+	line-height: 1.625;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	background: var(--color-white);
+}
+
+blockquote {
+	padding: 0 20px;
+	margin: 1em 0;
+
+	& > cite {
+		margin: 1em 0;
+		display: block;
+	}
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+	& > code {
+		padding: 2px;
+		border-radius: 2px;
+		background: #f3f4f5;
+		font-size: inherit;
+	}
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+pre {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 0.8em 1em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 0.875rem;
+
+	@media screen and (min-width: 600px) {
+		font-size: 0.8125rem;
+	}
+}
+
+/*--------------------------------------------------------------
+# Heading
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+# List
+--------------------------------------------------------------*/
+ul,
+ol {
+	margin: 0 0 1.5em 0;
+	padding-left: 1em;
+}
+
+ol {
+	padding-left: 1.5em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+/*--------------------------------------------------------------
+# Definition
+--------------------------------------------------------------*/
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+/*--------------------------------------------------------------
+# Image
+--------------------------------------------------------------*/
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+/*--------------------------------------------------------------
+# Table
+--------------------------------------------------------------*/
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	text-align: left;
+	padding: 0.5em 1em;
+}
+
+th {
+	font-weight: normal;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+select {
+	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
+}
+
+button,
+input {
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+# Link
+--------------------------------------------------------------*/
+a {
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
