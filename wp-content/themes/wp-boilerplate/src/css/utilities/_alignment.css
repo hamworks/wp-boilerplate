@@ -1,35 +1,15 @@
-/* Alignment Classes ------------------------- */
-
-/*
-.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
-}
-
-[class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
-}*/
-
 .alignnone,
 .aligncenter,
 .alignleft,
 .alignright,
 .alignwide {
-	margin-top: 4rem;
-	margin-right: auto;
-	margin-bottom: 4rem;
-	margin-left: auto;
-}
-
-[class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 4rem auto;
 }
 
 /* Full */
 
 .alignfull {
-	margin-top: 5rem;
-	margin-right: auto;
-	margin-bottom: 5rem;
-	margin-left: auto;
+	margin: 5rem auto;
 	max-width: 100vw;
 	position: relative;
 	width: 100%;
