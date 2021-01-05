@@ -20,12 +20,7 @@
 				the_post_thumbnail();
 			endif;
 		endif;
-
-		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-		</div><!-- .entry-meta -->
-		<?php
-		endif; ?>
+		?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -50,6 +45,4 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
