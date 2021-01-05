@@ -23,10 +23,6 @@
 		<exclude name="WordPress.WP.I18n"/>
 		<exclude name="Squiz.Commenting.FileComment"/>
 		<exclude name="WordPress.Files.FileName" />
-		<exclude name="WordPress.WP.GlobalVariablesOverride.OverrideProhibited" />
-		<exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited" />
-		<exclude name="WordPress.DB.SlowDBQuery.slow_db_query_tax_query" />
-		<exclude name="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents" />
 	</rule>
 
 	<rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
