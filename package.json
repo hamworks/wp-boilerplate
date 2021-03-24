@@ -18,7 +18,7 @@
     },
     "devDependencies": {
         "@wordpress/browserslist-config": "^3.0.1",
-        "@wordpress/env": "^4.0.0",
+        "@wordpress/env": "github:team-hamworks/wordpress-env",
         "@wordpress/eslint-plugin": "^9.0.1",
         "@wordpress/prettier-config": "^1.0.1",
         "@wordpress/scripts": "^14.0.1",
