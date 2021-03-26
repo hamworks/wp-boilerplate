@@ -1,5 +1,5 @@
 {
-    "name": "hamworks/wp-wp-boilerplate",
+    "name": "hamworks/wp-boilerplate",
     "description": "",
     "license": "GPL-2.0-or-later",
     "type": "project",
@@ -11,12 +11,13 @@
         }
     ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.3"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^3.3",
         "dealerdirect/phpcodesniffer-composer-installer": "*",
-        "wp-coding-standards/wpcs": "^1.1"
+        "phpcompatibility/phpcompatibility-wp": "*",
+        "squizlabs/php_codesniffer": "*",
+        "wp-coding-standards/wpcs": "*"
     },
     "extra": {
         "installer-paths": {
@@ -31,6 +32,11 @@
             ]
         },
         "wordpress-install-dir": "htdocs/wp"
+    },
+    "autoload": {
+        "psr-4": {
+            "HAMWORKS\\Wp_Boilerplate\\Theme\\": "wp-content/themes/wp-boilerplate/inc"
+        }
     },
     "scripts" : {
         "format": "phpcbf --standard=./.phpcs.xml.dist --report-summary --report-source",
